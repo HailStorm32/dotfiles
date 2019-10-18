@@ -1,0 +1,4 @@
+# Take a screenshot of selection (super s)
+"maim -su | xclip -selection clipboard -target image/png"
+    m:0x40 + c:39
+    Mod4 + s
