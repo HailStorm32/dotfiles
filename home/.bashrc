@@ -35,4 +35,4 @@ fi
 
 alias cat=bat
 
-#alias cl=clear
+alias cl='clear'
