@@ -36,3 +36,5 @@ fi
 alias cat=bat
 
 alias cl='clear'
+
+alias specs='neofetch'
