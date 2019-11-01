@@ -1,4 +1,6 @@
 # Take a screenshot of selection (super s)
+# Install maim xcip and xbindkeys
+# then run xbindkeys
 "maim -su | xclip -selection clipboard -target image/png"
     m:0x40 + c:39
     Mod4 + s
