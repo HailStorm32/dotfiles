@@ -14,9 +14,9 @@ export XDG_CONFIG_HOME=$HOME/.config
 [[ $- != *i* ]] && return
 
 
-path="$(tput setaf 4)\w$(tput sgr0)"
-name="$(tput setaf 6)\u$(tput sgr0)"
-host="$(tput setaf 6)\h$(tput sgr0)"
+path="\[$(tput setaf 4)\]\w\[$(tput sgr0)\]"
+name="\[$(tput setaf 6)\]\u\[$(tput sgr0)\]"
+host="\[$(tput setaf 6)\]\h\[$(tput sgr0)\]"
 PS1="┌─[$path]\n└─[$name@$host]$ "
 
 
