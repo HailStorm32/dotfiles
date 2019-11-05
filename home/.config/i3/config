@@ -98,8 +98,8 @@ bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
 # floating min max size
-floating_minimum_size 100 x 100
-floating_maximum_size -1 x -1
+#floating_minimum_size 100 x 100
+#floating_maximum_size -1 x -1
 
 # focus the parent container
 bindsym $mod+a focus parent
