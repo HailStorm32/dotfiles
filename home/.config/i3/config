@@ -191,7 +191,7 @@ bar {
 
 #rdesktop resizing
 for_window [title="rdesktop - ts.cecs.pdx.edu"] floating disable
-for_window [title="rdesktop - ts.cecs.pdx.edu"] move container to workspace number 1
+#for_window [title="rdesktop - ts.cecs.pdx.edu"] move container to workspace number 1
 #resize grow height 100px or 100ppx
 #resize grow height 100px or 100ppx
 

@@ -34,7 +34,6 @@ else
 fi
 
 alias cat=bat
-
-alias cl='clear'
-
-alias specs='neofetch'
+alias cl=clear
+alias specs=neofetch
+alias ip-pub='wget http://checkip.dyndns.org/ -O - -o /dev/null | cut -d: -f 2 | cut -d\< -f 1'
