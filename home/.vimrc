@@ -10,13 +10,9 @@ endif
 call plug#begin('~/.vim/plugged')    
 Plug 'itchyny/lightline.vim'
 Plug 'iCyMind/NeoSolarized'
-Plug 'raimondi/delimitmate'
 Plug 'sheerun/vim-polyglot'
 Plug 'lervag/vimtex'
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-Plug 'valloric/youcompleteme'
 call plug#end()
 
 
@@ -75,7 +71,7 @@ let g:lightline = {
 " ultisnips stuff                                            "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="q"
+"let g:UltiSnipsExpandTrigger="q"
 let g:UltiSnipsJumpForwardTrigger="<c-j>"
 let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
